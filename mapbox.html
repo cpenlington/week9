@@ -27,6 +27,7 @@
    // The map service ArcGIS Server export request is modified to display as web mercator (102100). 
    // I used F12 network tab and modifed a request from an ArcGIS Online WebMap to form this.
    // Projection issue still not fix, opened link in new tab and images shows up but still looks like it is incorrect projection
+   // Projection looks fixed in image but still not showing on map
     map.on('load', function() {
         map.addSource('wms-test-source', {
             'type': 'raster',
